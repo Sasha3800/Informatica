@@ -9,7 +9,6 @@ namespace lab16
             int j = right;
             int pivot = arr[left + (right - left) / 2];
 
-
             while (i <= j)
             {
                 while (arr[i].CompareTo(pivot) < 0)
